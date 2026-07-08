@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meadow Muffin Menagerie – Party Packages</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #6cad71; /* sage green */
+            color: #333;
+        }
+
+        header {
+            background: #f5a6f3; /* pastel pink */
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        /* PACKAGE CARDS */
+        .package-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .package-card {
+            background: #82a6c2; /* country blue */
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .package-card:hover {
+            background: #6b8aa3; /* darker country blue */
+            transform: scale(1.03);
+        }
+
+        .package-card h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .package-card p {
+            font-size: 1rem;
+            color: #f0f4fa; /* soft white-blue */
+        }
+
+        .price {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin: 10px 0;
+            color: white;
+        }
+
+        /* CONTACT BOX */
+        .contact-box {
+            background: #82a6c2; /* country blue */
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            font-size: 1.2rem;
+        }
+
+        .contact-box a {
+            color: #f0f4fa; /* soft white-blue */
+            text-decoration: underline;
+        }
+
+        .contact-box a:hover {
+            color: #ffffff;
+        }
+
+        .back-home {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.1rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #f5a6f3; /* pastel pink */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        /* SMALLER SLIDESHOW */
+        .slideshow-container {
+            max-width: 500px; /* smaller size */
+            margin: 20px auto;
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+
+        .slide {
+            display: none;
+        }
+
+        .slide img {
+            width: 100%;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Meadow Muffin Menagerie</h1>
+    <p>Balloon Twisting • Party Entertainment • Custom Creations</p>
+</header>
+
+<!-- PACKAGES SECTION -->
+<section class="section">
+    <h2>Packages</h2>
+
+    <div class="package-grid">
+
+        <!-- PACKAGE 1 -->
+        <div class="package-card">
+            <h3>Invite the<br>Air Benders to Your Event </h3>
+            <p>Perfect for festivals, fairs, school events, or anywhere with foot traffic.</p>
+            <p class="price">Contact us for pricing</p>
+            <p>Balloon Menu customizable for Your Event.</p>
+        </div>
+
+        <!-- PACKAGE 2 -->
+        <div class="package-card">
+            <h3>Private Party</h3>
+            <p>Great for birthdays, family gatherings, and private events.</p>
+            <p class="price">$100 • 1 Hour • Up to 30 Kids</p>
+            <p class="price">$150 • 2 Hours • Up to 50 Kids</p>
+            <p>Have more kids or need more time? Contact us and we’ll tailor your booking.</p>
+        </div>
+
+        <!-- PACKAGE 3 -->
+        <div class="package-card">
+            <h3>Sponsor the<br>Air Benders at an Event!</h3>
+            <p>Includes signage "Today's balloons courtsy of (your businsess name/logo here)" </p>
+            <p>Option to place your marketing materials at our booth.</p>
+            <p>Option to be included in our social media posts surrounding the event.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT INFORMATION SECTION -->
+<section class="section">
+    <h2>Contact Us</h2>
+
+    <div class="contact-box">
+        <p><strong>Phone:</strong> 
+            <a href="tel:+18706548805">+1 (870) 654 8805</a>
+        </p>
+
+        <p><strong>Email:</strong> 
+            <a href="mailto:meadowmuffinenterprises@gmail.com">
+                meadowmuffinenterprises@gmail.com
+            </a>
+        </p>
+
+        <p><strong>Facebook:</strong> 
+            <a href="https://www.facebook.com/profile.php?id=61590903481942" target="_blank">
+                Meadow Muffin Menagerie
+            </a>
+        </p>
+
+        <p><strong>Instagram:</strong> 
+            <a href="https://www.instagram.com/meadowmuffinmenagerie" target="_blank">
+                @meadowmuffinmenagerie
+            </a>
+        </p>
+    </div>
+</section>
+
+<!-- SLIDESHOW SECTION -->
+<section class="section">
+    <h2>Photo Gallery</h2>
+
+    <div class="slideshow-container">
+        <div class="slide">
+            <img src="slide-one.jpeg" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="slide-two.jpeg" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="slide-three.jpeg" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="slide-four.jpeg" alt="Slide 4">
+        </div>
+        <div class="slide">
+            <img src="slide-five.jpeg" alt="Slide 5">
+        </div>
+    </div>
+</section>
+
+<a class="back-home" href="index.html">← Back to Home</a>
+
+<footer>
+    Meadow Muffin Menagerie © 2026 • All Rights Reserved
+</footer>
+
+<!-- SLIDESHOW SCRIPT -->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change slide every 3 seconds
+}
+</script>
+
+</body>
+</html>

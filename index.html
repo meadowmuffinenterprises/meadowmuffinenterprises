@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meadow Muffin Enterprises</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #30b362;
+            color: #333;
+        }
+
+        header {
+            background: #e986f0;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .business-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .business-section h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .business-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 0 20px;
+        }
+
+        .business-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .business-card:hover {
+            transform: scale(1.05);
+        }
+
+        .business-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .business-card h3 {
+            margin: 15px 0 5px;
+            font-size: 1.5rem;
+            padding: 0 15px;
+        }
+
+        .business-card p {
+            padding: 0 15px 20px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        footer {
+            background: #e986f0;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Meadow Muffin Enterprises</h1>
+    <p>Creative Services • Balloon Art • Family Entertainment</p>
+</header>
+
+<section class="business-section">
+    <h2>Our Businesses</h2>
+
+    <div class="business-grid">
+
+        <!-- BUSINESS 1 -->
+        <a href="menagerie-menu.html" class="business-card">
+            <img src="meadow-muffin-menagerie-logo.jpeg" alt="Meadow Muffin Menagerie Logo">
+            <h3>Meadow Muffin Menagerie</h3>
+            <p>Balloon twisting, party entertainment, and whimsical creations for all ages.</p>
+        </a>
+
+        <!-- BUSINESS 2 — AUDIE ADAPTS -->
+            <a href="audie-adapts.html" class="business-card">
+            <img src="audie-adapts-photo.jpg" alt="Audie Adapts">
+            <h3>Audie Adapts</h3>
+            <p>Adaptive services, creative solutions, and personalized support for every need.</p>
+        </a>
+
+
+        <!-- BUSINESS 3 -->
+        <a href=I.T.IT.html class="business-card">
+            <img src="I.T.-IT.jpeg" -logo" alt="I.T. IT">
+            <h3>Business Three</h3>
+            <p>Describe the third business here.</p>
+        </a>
+
+        <!-- BUSINESS 4 -->
+        <a href="candy-bouquets.html" class="business-card">
+            <img src="candy-bouquets.jpeg" alt="candy bouquets">
+            <h3>Business Four</h3>
+            <p>Describe the fourth business here.</p>
+        </a>
+
+    </div>
+</section>
+
+<footer>
+    Meadow Muffin Enterprises © 2026 • All Rights Reserved
+</footer>
+
+</body>
+</html>
